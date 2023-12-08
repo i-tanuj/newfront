@@ -1,0 +1,430 @@
+table#table-to-xls {
+    box-shadow: 0px 0px 13px 0px #0000001a;
+    border-radius: 15px !important;
+}
+span.dispatcher-id {
+    text-align: center;
+    padding: 4px 10px;
+    color: #502ACD;
+    border-radius: 5px;
+    border: 1px solid #502ACD;
+}
+li.page-item a {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 7px 30px;
+    margin-top: 15px;
+    margin-right: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #1b2644;
+}
+.tableheading th {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 40px;
+    padding: 7px 15px;
+}
+.delete::before {
+    color: #1b2644;
+}
+.tbody th, .tbody td {
+    padding: 12px 8px;
+    font-size: 14px;
+}
+.dispatcher-list-form .modal_body.modal-body {
+    background-color: gainsboro;
+}
+.close-icon {
+    position: absolute;
+    right: 20px;
+    font-size: 25px;
+    top: 14px;
+
+}
+form.form_main {
+    padding: 30px;
+}
+.dispatcher-list-form h5.main_h5 {
+    text-align: center;
+}
+
+.dispatcher-list-form input {
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid #E7E7E7;
+}
+.dispatcher-list-form select {
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid #E7E7E7;
+}
+.dispatcher-list-form input::placeholder{
+    color: #6941c6;
+}
+.dispatcher-list-form button{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px;
+    background-color: #1b2644 !important;
+}
+table#table-to-xls {
+    z-index: 7;
+    position: relative;
+}
+thead.tableheading{
+    position: relative;
+}
+.view-table-new {
+    margin-top: 25px;
+}
+/* thead.tableheading:before {
+    position: absolute;
+    content: "";
+    background-color: #efefef;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-radius: 10px 10px 0 0;
+} */
+.driver-view-list {
+    background-color: #efefef;
+    z-index: 8;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 28px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: -8px;
+    align-items: center;
+}
+.add-new-form-btn .d-flex.create-dispatcher.align-items-center {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.driver-view-list h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.create-dispatcher {
+    background-color: #1b2644;
+    padding: 10px 20px 10px;
+    color: #fff;
+    border-radius: 8px;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+}
+input::placeholder{
+    color: #6B7DB1;
+}
+
+/********************* view shipment record dashboaed ********************/
+.view-table-shipment {
+    margin-top: 86px;
+    box-shadow: 0px 4px 23px 0px #1B264426;
+    padding: 0;
+}
+.view-table-shipment-header {
+    background-color: #B2D9FF;
+    z-index: 9;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 28px;
+    border-radius: 10px 10px 0 0;
+    align-items: center;
+    column-gap: 20px;
+}
+.view-table-shipment-header h2 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #1B2644;
+}
+.shipment-header-row {
+    background-color: #EEF1F5;
+    z-index: 9;
+    position: relative;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+    padding-bottom: 20px;
+}
+h3.Delivery-Documents {
+    padding: 10px;
+    text-align: center;
+    background-color: #b2d9ff;
+    position: relative;
+    z-index: 9;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+.shiping-label span {
+    color: #FF0000;
+    font-size: 22px;
+    font-weight: 800;
+}
+p.shiping-input {
+    border: 1px solid #E7E7E7;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: #fff;
+}
+p.shiping-label {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.column-one, .column-two, .column-three {
+    width: 33%;
+}
+.Back-btn a {
+    position: relative;
+    z-index: 999;
+    color: #1b2644;
+    text-align: right;
+    background-color: #fff;
+    padding: 13px 30px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.Back-btn-01 a {
+    position: relative;
+    z-index: 999;
+    color: #1b2644;
+    text-align: right;
+    background-color: #fff;
+    padding: 18px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.Back-btn {
+    text-align: right;
+    margin: 10px 0 4px;
+}
+.d-flex.btn-align {
+    align-items: flex-start;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+.Back-btn-01 {
+    text-align: right;
+    margin: 16px 4px;
+}
+.Successful-py {
+    background-color: #E5FEE7;
+    border-radius: 50px;
+    color: #00C313;
+    padding-left: 25px;
+    position: relative;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+
+}
+.Successful-py-01 {
+    background-color: #E5FEE7;
+    border-radius: 50px;
+    color: #00C313;
+    position: relative;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    display: inline-block;
+    padding: 5px 30px;
+}
+.Successful-py:after, .Successful-py-01:after {
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    width: 5px;
+    height: 5px;
+    background-color: #00c313;
+    border-radius: 50%;
+    margin-top: -2.5px;
+}
+ul.pagination {
+    justify-content: end;
+    background-color: #1b2644;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+}
+button.settled {
+    color: #fff;
+    padding: 8px 20px !important;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    background-color: #32BC01;
+    border-radius: 10px;
+    border: none;
+    margin-right: 10px;
+}
+button.Settle-amount {
+    color: #fff;
+    padding: 8px 20px !important;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    background-color: #1B2644;
+    border-radius: 10px;
+    border: none;
+}
+.p-0.shipment-view-table {
+    margin-top: 85px;
+}
+.shipment-view-pending-cencal{
+    margin-top: 85px;
+}
+span.ship-pending {
+    position: relative;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    color: #FF3C3C;
+    background-color: #FFE1E1;
+    padding: 5px 20px 5px 20px;
+    border-radius: 50px;
+}
+span.ship-pending:after {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    margin-top: -2.5px;
+    width: 5px;
+    height: 5px;
+    background-color: red;
+    border-radius: 50%;
+}
+.ship-delayed{
+    position: relative;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    color: #C29700;
+    background-color: #FFEFC7;
+    padding: 5px 20px 5px 20px;
+    border-radius: 50px;
+}
+span.ship-delayed:after {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    margin-top: -2.5px;
+    width: 5px;
+    height: 5px;
+    background-color: #C29700;
+    border-radius: 50%;
+}
+span.ship-cancel{
+    position: relative;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    color: #C20000;
+    background-color: #FFDBDB;
+    padding: 5px 20px 5px 20px;
+    border-radius: 50px;
+}
+span.ship-cancel:after {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    margin-top: -2.5px;
+    width: 5px;
+    height: 5px;
+    background-color: #C20000;
+    border-radius: 50%;
+}
+
+thead.tableheading th {
+    font-weight: 700;
+}
+input.form-control.me-2.serch-filed {
+    background-color: #0000;
+    border: 1px solid #000000;
+    border-left: 0;
+    padding-left: 0;
+    font-size: 16px;
+    font-weight: 500;
+    padding-right: 0px;
+}
+span#basic-addon1 {
+    background-color: #0000 !important;
+    border: 1px solid;
+    border-right: 0;
+}
+.bi-search::before {
+    content: "\f52a";
+    font-weight: 800 !important;
+}
+.datepicker-date-comm {
+    display: flex;
+    gap: 20px;
+    width: 380px;
+}
+.datepicker-date-comm input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+}
+.datepicker-date-comm input:focus-visible {
+    outline: none;
+}
+img.calender-icon {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    height: 27px;
+}
+span.calender-icon {
+    position: relative;
+}
+.dwf-shipment-rec {
+    z-index: 0 !important;
+}
+.btn:hover {
+    color: #fff;
+    background-color:#1b2644;
+    border-color: #1b2644;
+}
+td.Pickup-Location-table {
+    width: 250px !important;
+    word-break: break-word;
+}
+.tbody .btn.bt:hover  .delete::before {
+    color: #ffffff;
+}
+
+
+svg.main_AiOutlineClose.close-icon-delete {
+    position: absolute;
+    right: 10px;
+    top: 16px;
+    font-size: 22px;
+}
+.delete-popup-icon {
+    position: relative;
+}
+.delete-popup-icon-holder.modal-body {
+    padding: 0;
+}
+
+
+

@@ -1,0 +1,157 @@
+.rounded-bg {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    margin: 0;
+}
+.pre-next-btn {
+    display: flex;
+    column-gap: 10px;
+}
+.shipment-records {
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 28px;
+}
+table.table.align-middle.table-result {
+    --bs-table-bg: none;
+    border-radius: 16px;
+    background-color: #fff;
+    margin-bottom: 0;
+}
+table {
+    caption-side: inherit;
+    border-collapse: inherit;
+}
+.completed, .ongoing, .pending {
+    font-size: 12px;
+    font-weight: 500;
+}
+.completed{
+    color: #6941C6;
+    background-color: #EAECF0;
+    position: relative;
+}
+.ongoing{
+    color: #027A48;
+    background-color: #ECFDF3;
+    position: relative;
+}
+.pending {
+    color: #FF3C3C;
+    background-color: #ffefef;
+    position: relative;
+}
+.completed, .pending, .ongoing {
+    font-size: 12px;
+    font-weight: 500;
+    height: 27px !important;
+    display: block;
+    padding: 5px 17px !important;
+    border-radius: 16px;
+    text-align: center;
+}
+.pending:before, .completed:before, .ongoing:before {
+    content: "";
+    position: absolute;
+    left: 8px;
+    bottom: 10px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+}
+.pending:before{
+    background-color: #ff3c3c;
+}
+.completed:before{
+    background-color: #6941C6;
+}
+.ongoing:before{
+    background-color: #027A48;
+ }
+ span.dash-icon {
+    border: 2px solid   #502ACD;
+    border-radius: 5px;
+    padding: 3px 3px;
+    margin-right: 12px;
+    margin-left: 13px;
+    font-weight: 600;
+    color: #502ACD;;
+}
+.shipment-dashboard img {
+    width: 55%;
+}
+span.s-number {
+    padding: 4px 7px;
+    border: 2px solid #502ACD;
+    border-radius: 5px;
+    color: #502ACD;
+    margin-right: 10px;
+    font-weight: 600;
+}
+.table-result a.web-link {
+    display: block;
+}
+.tableheading th {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.table-result tbody.tbody td, .table-result tbody.tbody th {
+    padding: 14px;
+}
+a.web-link {
+    font-size: 14px;
+    color: #667085;
+    text-decoration: none;
+}
+a.eye {
+    padding: 5px;
+}
+.pagination-row {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+section.pagination {
+    background-color: #1B2644;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 0px 0px 10px 10px;
+}
+.page-count {
+    font-size: 14px;
+    font-weight: 500;
+}
+.pre-next-btn button {
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 20px;
+    border-radius: 10px;
+    color: #1B2644;
+
+}
+tbody td.d-flex.align-items-center {
+    padding: 26px;
+}
+th.driver-details span, th.delivery-details span {
+    display: block;
+    font-size: 12px;
+}
+tbody td.d-flex.align-items-center {
+    padding: 20px 15px;
+    height: 120px;
+}
+.vehicle, .helper, .date-time span {
+    font-size: 12px;
+}
+.tbody div {
+    font-size: 12px;
+}
+input::placeholder{
+    color: #6B7DB1;
+}

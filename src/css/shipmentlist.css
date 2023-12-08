@@ -1,0 +1,283 @@
+
+
+
+@import '~font-awesome/css/font-awesome.min.css';
+
+
+.submit-button {
+    position: relative; /* Required for absolute positioning of the spinner */
+  }
+  
+  .fa-spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #1c74e7; 
+    height: 70px;
+  }
+  .fa-spinner:before {
+    content: "\f110";
+    font-size: 70px;
+}
+  
+
+.shipment-dashboard p.card-text {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 22px;
+}
+.shipment-dashboard h5.card-header-01, .shipment-dashboard h5.card-header-02 {
+    font-size: 16px;
+    font-weight: 600;
+}
+.bg-white.shipment-dashboard {
+    position: fixed;
+    left: 25px;
+    top: 150px;
+    width: 15.5%;
+    z-index: 1;
+    height: 580px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.close-icon-edit {
+    position: absolute;
+    right: 30;
+    top: 14px;
+    font-size: 22px;
+    cursor: pointer;
+    z-index: 99;
+}
+.new-icon .close-icon {
+    position: absolute;
+    right: 30;
+    top: 20px;
+    font-size: 22px;
+    cursor: pointer;
+    z-index: 99;
+}
+.close-icon {
+    position: absolute;
+    right: 30;
+    top: -6px;
+    font-size: 22px;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.helper-close .close-icon {
+    position: absolute;
+    right: 30;
+    top: 19px;
+    font-size: 22px;
+    cursor: pointer;
+    z-index: 99;
+}
+.Another-Location img {
+    width: 35px;
+    background-color: #1B2644;
+    border-radius: 10px;
+}
+.form-control-delivery {
+    box-shadow: 0px 4px 25px 0px #1B264424;
+    width: 90%;
+    padding: 32px 32px;
+    border-radius: 16px;
+    margin: 40px;
+}
+.Another-Location button {
+    color: #1b2644;
+    margin-top: 20px;
+}
+.form-control-delivery button.submit-btn {
+    width: 100%;
+    border: none;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 16px;
+    background-color: #1B2644;
+    color: #fff;
+    display: block;
+}
+.form-control-delivery input {
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid #E7E7E7;
+}
+.form-control-delivery select, .form-control-holder select{
+    width: 100%;
+    padding: 13px 15px;
+    border-radius: 10px;
+    border: 1px solid #E7E7E7;
+}
+.form-control-delivery select:focus-visible, .form-control-holder select:focus-visible{
+    outline: none;
+}
+.form-control-delivery input::placeholder {
+    color: #6B7DB1;
+    font-size: 16px;
+    font-weight: 400;
+}
+.Another-Location button {
+    color: #1b2644;
+    margin-top: 50px;
+}
+.admin-dashboard .card-header-01 {
+    width: 100%;
+}
+.admin-dashboard  .card {
+    border: none;
+}
+.admin-dashboard ul li{
+    width: 50%;;
+}
+.nav-tabs .nav-link{
+    border: none;
+}
+.nav-tabs .nav-link {
+    border: none;
+    background-color: gainsboro;
+    color: #000;
+}
+.shipment-dashboard img {
+    width: 55%;
+}
+/* width */
+.shipment-dashboard::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  /* Track */
+  .shipment-dashboard::-webkit-scrollbar-track {
+    background: #f1f1f100;
+  }
+  
+  /* Handle */
+  .shipment-dashboard::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  .shipment-dashboard::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+a{
+    text-decoration: none;
+    color:#000;
+}
+a:hover{
+    color:#1B2644;
+}
+
+
+
+.card-header-01 {
+    font-size: 24px;
+    font-weight: 700;
+    background-color: #1B26441F;
+    padding: 13px 30px;
+    border-radius: 10px 10px 0 0;
+}
+
+.row.card-holder-py {
+    padding: 5px 13px !important;
+}
+
+.col-md-6.border-top-right {
+    border-right: 1px solid #00CCCC26;
+    border-top: 1px solid #00CCCC26;
+}
+.col-md-6.border-top-left {
+    border-top: 1px solid #00CCCC26;
+}
+.border-top {
+    border-top: 1px solid #00CCCC26 !important;
+}
+.col-md-6.border-top-right {
+    border-right: 1px solid #00CCCC26;
+    border-top: 1px solid #00CCCC26;
+}
+.border-right {
+    border-right: 1px solid #00CCCC26;
+}
+.card-header-02{
+    font-size: 24px;
+    font-weight: 700;
+    background-color: #1B26441F;
+    padding: 10px 20px;
+    margin-bottom: 0;
+}
+.table-header-title input.form-control.me-2.serch-filed {
+    margin: 0 !important;
+}
+.table-header-title {
+    background-color: #f2f2f2;
+    padding: 0;
+    border-radius: 10px;
+
+}
+.table-header-title .row {
+    padding: 25px 15px;
+}
+
+@media only screen and (max-width:1440px){
+  
+.shipment-dashboard p.card-text {
+    font-size: 16px;
+}
+
+.bg-white.shipment-dashboard {
+    left: 35px;
+}
+.bg-white.shipment-dashboard {
+    height: 544px;
+}
+}
+
+@media only screen and (max-width:1370px){
+
+.shipment-dashboard p.card-text {
+    font-size: 13px;
+}
+.shipment-dashboard img {
+    width: 40%;
+}
+.bg-white.shipment-dashboard {
+    left: 35px;
+    height: 550px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.shipment-dashboard::-webkit-scrollbar {
+    width: 3px;
+}
+
+/* Track */
+.shipment-dashboard::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+ 
+/* Handle */
+.shipment-dashboard::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+.shipment-dashboard::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.row.card-holder-py {
+    padding: 0 15px;
+}
+}
+
+input::placeholder{
+    color: #6B7DB1;
+}

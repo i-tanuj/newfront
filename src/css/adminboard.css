@@ -1,0 +1,130 @@
+.admin-dashboard, .shipment-dashboard, .account-here{
+    background-color: white;
+    border-radius: 16px;
+}
+
+.admin-dashboard  .card-text {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 12px;
+    color: #1F1F1F;
+}
+.admin-dashboard h2 {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 41px;
+    color: #1b2644;
+}
+.card-01 {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px 0px #006c6c1c;
+}
+.admin-dashboard-container {
+    margin-top: 150px;
+    z-index: 1;
+}
+
+.title-header h5.h5 {
+    font-size: 24px;
+    font-weight: 500;
+}
+.title-header{
+    position: relative;
+}
+.title-header p {
+    font-weight: 500;
+    color: #8B8B8B;
+    margin-bottom: 5px;
+}
+
+.card-header-01 {
+    font-size: 24px;
+    font-weight: 700;
+    background-color: #1B26441F;
+    padding: 13px 30px;
+    border-radius: 10px 10px 0 0;
+}
+
+.shipment-dashboard h5.card-header-01,  .shipment-dashboard h5.card-header-02 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card-holder {
+    padding: 62px 43px;
+}
+
+.row.card-holder-py {
+    padding: 0 40px;
+}
+
+.card-holder-01 {
+    padding: 40px 40px 0;
+}
+.card-holder img {
+    width: 35%;
+}
+.Another-Location img {
+    width: 15% !important;
+}
+.title-header-admin {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 13px 30px;
+    border-radius: 10px 10px 0 0;
+}
+.datepicker-admin {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1B26441F;
+    align-items: center;
+    padding: 0 20px;
+}
+.datepicker-date {
+    width: 63%;
+    display: flex;
+    column-gap: 10px;
+}
+.datepicker-date input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+}
+
+@media only screen and (max-width:1440px){
+ 
+.admin-dashboard  .card-text {
+    font-size: 19px;
+}
+
+.col-md-9.admin-dashboard-container {
+    padding-right: 0;
+}
+.admin-dashboard h2 {
+    font-size: 30px;
+}
+.card-holder {
+    padding: 37px 40px 37px;
+}
+}
+
+@media only screen and (max-width:1240px){
+    .account-here  p {
+        font-size: 13px;
+}
+.admin-dashboard  .card-text {
+    font-size: 18px;
+}
+}
+
+@media only screen and (max-width:1370px){
+
+.row.card-holder-py {
+    padding: 0 15px;
+}}
+
+input::placeholder{
+    color: #6B7DB1;
+}

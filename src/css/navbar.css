@@ -1,0 +1,230 @@
+*{
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #F2F2F2;
+}
+
+.bg-color {
+    background-color: #1B2644;
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+.avtar img {
+    width: 100%;
+}
+.avtar {
+    color: #fff;
+    display: flex;
+    column-gap: 8px;
+    align-items: center;
+}
+div#navbarScroll {
+    width: auto;
+}
+.bg-color ul li a.nav-link.dropdown-toggle {
+    color: #fff;
+    padding: 0 10px;
+}
+.menu-container {
+    align-items: center;
+    justify-content: space-between;
+}
+.notification {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-left: 10px;
+}
+.header-logo {
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+}
+.header-logo img{
+    width: 86%;
+
+}
+
+.submit-btn{
+	margin-top:20px;
+    background: rgba(27, 38, 68, 1);
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+}
+.card.login-form {
+    padding: 20px 40px;
+}
+.login-form input {
+    padding: 10px 15px;
+    margin-top: 10px;
+}
+.modal-body svg.main_AiOutlineClose {
+    cursor: pointer;
+}
+.notification {
+    column-gap: 0;
+    margin-left: 0;
+}
+.container.d-flex.justify-content-between {
+    padding: 0;
+}
+.notification img {
+    width: 44px;
+    margin: 0px 5px;
+}
+/* .nav-tooltip{
+    opacity: 0;
+}
+.notification img:hover .nav-tooltip{
+    opacity: 1;
+} */
+
+hrader {
+    position: fixed;
+    top: 0;
+    height: 271px;
+    z-index: 1;
+    width: 100%;
+    left: 0;
+}
+input::placeholder{
+    color: #6B7DB1;
+}
+
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  button.btn.btn-secondary {
+    width: 100%;
+    padding: 6px;
+    background-color: #1b2644;
+    /* margin: 20px 10px 0; */
+}
+button.logout-btn{
+    width: 100px;
+    padding: 13px;
+    background-color: #1b2644;
+    margin: 20px 10px 0;
+}
+
+
+
+
+/* App.css */
+.menusidebar {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 0;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: -50px;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    transition: 0.3s;
+    color: #131b2f;
+    z-index: 9999 !important;
+    padding: 20px;
+}
+  
+  .sidebar.open {
+    width: 438px; /* Adjust the width as needed */
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar li {
+    padding: 10px;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+   
+    
+    .toggle-button {
+        background-image: url(../../public/Assets/gif/icon-light.gif);
+    background-size: cover;
+    border-radius: 50%;
+    width: 38px;
+    height: 36px;
+    padding: 20px;
+}
+.Notification-img .content {
+    flex: 1 1;
+    padding: 8px;
+}
+  
+
+
+  
+  /* App.css */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Semi-transparent black overlay */
+    z-index: 999; /* Ensure the overlay is on top of other content */
+    cursor: pointer;
+  }
+
+
+  .Notification-img {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 9;
+    height: 55px;
+    background-color: #1b2644;
+    display: flex;
+    border-radius: 50%;
+    width: 55px;
+}
+p.notty-label-home {
+    color: #fff;
+    transform: rotate(90deg);
+    position: ABSOLUTE;
+    left: -16px;
+    top: 50%;
+    font-weight: 400;
+    margin: 0px !important;
+}
+  

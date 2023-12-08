@@ -1,0 +1,15 @@
+.shipment-bnt button {
+    color: #212529;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 22px;
+}
+.d-flex.Transfer-form {
+    gap: 20px;
+}
+input::placeholder{
+    color: #6B7DB1;
+}
+.Transfer-form div {
+    width: 50%;
+}
