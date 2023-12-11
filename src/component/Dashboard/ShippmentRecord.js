@@ -681,7 +681,6 @@ function ShipmentRecords() {
       setCustomerContact2(selectedCustomer.phone1);
       setCustomerAltNum(selectedCustomer.customer_alt_num);
       setPickUpLocation(selectedCustomer.pick_up_location);
-      // setAddress(selectedCustomer.address);
       setCustomerEmail(selectedCustomer.email);
       setCustomerEmail1(selectedCustomer.email1);
     }
@@ -790,7 +789,6 @@ function ShipmentRecords() {
                   name="pickuplocation"
                   value={customerAddress}
                   onChange={(e) => setPickuplocation(e.target.value)}
-                  // onChange={(e) => setAddress(e.target.value)}
                   id="pickuplocation"
                   placeholder="Enter Pickup Location"
                   type="text"
