@@ -681,7 +681,7 @@ function ShipmentRecords() {
       setCustomerContact2(selectedCustomer.phone1);
       setCustomerAltNum(selectedCustomer.customer_alt_num);
       setPickUpLocation(selectedCustomer.pick_up_location);
-      setAddress(selectedCustomer.address);
+      // setAddress(selectedCustomer.address);
       setCustomerEmail(selectedCustomer.email);
       setCustomerEmail1(selectedCustomer.email1);
     }
