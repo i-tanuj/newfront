@@ -790,6 +790,7 @@ function ShipmentRecords() {
                   name="pickuplocation"
                   value={customerAddress}
                   onChange={(e) => setPickuplocation(e.target.value)}
+                  // onChange={(e) => setAddress(e.target.value)}
                   id="pickuplocation"
                   placeholder="Enter Pickup Location"
                   type="text"
